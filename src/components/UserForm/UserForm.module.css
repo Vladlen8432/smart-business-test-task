@@ -1,0 +1,12 @@
+.containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.formButton {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

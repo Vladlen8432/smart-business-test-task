@@ -1,0 +1,11 @@
+.containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #090909;
+}
+
+.headerItem {
+  color: #2b59b0;
+  text-transform: uppercase;
+}
