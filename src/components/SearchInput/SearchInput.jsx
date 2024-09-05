@@ -1,6 +1,8 @@
 import { useDispatch } from "react-redux";
 import { updateFilter } from "../../redux/usersSlice";
 
+import css from "./SearchInput.module.css";
+
 const SearchInput = () => {
   const dispatch = useDispatch();
 
@@ -9,7 +11,12 @@ const SearchInput = () => {
   };
 
   return (
-    <input type="text" placeholder="Search users..." onChange={handleChange} />
+    <input
+      className={css.searchInputItem}
+      type="text"
+      placeholder="Search users..."
+      onChange={handleChange}
+    />
   );
 };
 

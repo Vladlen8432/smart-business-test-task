@@ -1,0 +1,14 @@
+.searchInputItem {
+  background: transparent;
+  border: none;
+  outline: none;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 320px;
+  background-color: #3b3b3d;
+  padding: 8px;
+  border-radius: 6px;
+  color: #fff;
+}

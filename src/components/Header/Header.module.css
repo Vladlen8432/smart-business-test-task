@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   background-color: #090909;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .headerItem {

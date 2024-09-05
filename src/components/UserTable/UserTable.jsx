@@ -1,7 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import { deleteUser } from "../../redux/usersOps";
+
 import SearchInput from "../SearchInput/SearchInput";
 import { selectFilteredUsers } from "../../redux/usersSlice";
+import css from "./UserTable.module.css";
 
 export const UserTable = () => {
   const users = useSelector(selectFilteredUsers);
@@ -12,7 +14,7 @@ export const UserTable = () => {
   };
 
   return (
-    <div>
+    <div className={css.containerTable}>
       <SearchInput />
       <table>
         <thead>
@@ -41,7 +43,7 @@ export const UserTable = () => {
             ))
           ) : (
             <tr>
-              <td colSpan="5">No users available</td>{" "}
+              <td colSpan="5">No users available</td>
             </tr>
           )}
         </tbody>
