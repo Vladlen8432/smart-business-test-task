@@ -15,7 +15,8 @@ export const UserTable = () => {
 
   return (
     <div className={css.containerTable}>
-      <SearchInput />
+      {/* <SearchInput /> */}
+      {users.length > 0 && <SearchInput />}
       <table>
         <thead>
           <tr>
